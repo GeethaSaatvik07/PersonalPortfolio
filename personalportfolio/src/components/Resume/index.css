@@ -1,0 +1,46 @@
+.chrono-card {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  padding: 10px;
+}
+
+.chrono-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 11px;
+  color: #18d26e;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
+.chrono-date {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.chrono-line {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 18px;
+  font-style: italic;
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
+.chrono-sublines {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
+.chrono-list {
+  list-style-type: circle;
+  margin-bottom: 12px;
+}

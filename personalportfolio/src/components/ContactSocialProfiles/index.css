@@ -1,0 +1,11 @@
+.contact-social-logo {
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  transition: color 0.8s;
+  margin-right: 12px;
+}
+
+.contact-social-logo:hover {
+  color: #18d26e;
+}
