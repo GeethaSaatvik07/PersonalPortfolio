@@ -5,6 +5,11 @@ export const SkillSet = styled.div`
   flex-direction: column;
   width: 48.1%;
   margin-right: 24px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const PercentageContainer = styled.div`

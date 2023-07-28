@@ -26,9 +26,9 @@ export const HomeContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-left: 0px;
+    text-align: center;
+    padding: 5px;
   }
 `;
 
@@ -37,15 +37,25 @@ export const HomeName = styled.h1`
   line-height: 48px;
   font-family: "Poppins", sans-serif;
   color: white;
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 `;
 
-export const HomeLine = styled.p`
+export const HomeLine = styled.h2`
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   line-height: 28.8px;
   color: rgba(255, 255, 255, 0.7);
   margin-top: 20px;
   margin-bottom: 35px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 `;
 
 export const RoleSpan = styled.span`

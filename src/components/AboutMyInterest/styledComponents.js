@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const InterestsList = styled.div`
   display: flex;
   flex-direction: row;
+  //   justify-content: center;
   align-items: center;
+  align-content: space-around;
   flex-wrap: wrap;
   margin-top: 20px;
 `;
@@ -20,6 +22,15 @@ export const InterestTab = styled.div`
   margin-bottom: 24px;
   &:hover {
     background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 46.39%;
   }
 `;
 

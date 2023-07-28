@@ -19,8 +19,8 @@ import {
 } from "./styledComponents";
 
 import Header from "../Header";
-import SkillsSet from "../SkillsSet";
-import MyInterest from "../MyInterest";
+import AboutSkillsSet from "../AboutSkillsSet";
+import AboutMyInterest from "../AboutMyInterest";
 
 import "./index.css";
 
@@ -228,7 +228,7 @@ class About extends Component {
                   <ExtraDetailsList>
                     <BiChevronRight className="chevron-right" />
                     <ExtraDetailsListSpan>Website: </ExtraDetailsListSpan>{" "}
-                    www.example.com
+                    https://geethasaatvik.vercel.app/
                   </ExtraDetailsList>
                   <ExtraDetailsList>
                     <BiChevronRight className="chevron-right" />
@@ -266,7 +266,7 @@ class About extends Component {
                 <hr className="page-hr-line" />
               </div>
               <SkillList>
-                <SkillsSet />
+                <AboutSkillsSet />
               </SkillList>
             </AboutSkills>
             <AboutInterests>
@@ -274,7 +274,7 @@ class About extends Component {
                 <h2 className="page-name">INTERESTS</h2>
                 <hr className="page-hr-line" />
               </div>
-              <MyInterest />
+              <AboutMyInterest />
             </AboutInterests>
           </div>
         </div>

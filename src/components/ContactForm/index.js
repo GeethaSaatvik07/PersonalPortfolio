@@ -50,6 +50,7 @@ class ContactForm extends Component {
       >
         <input type="hidden" name="_subject" value="New Email from Portfolio" />
         <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://geethasaatvik.vercel.app/" />
         <NameEmail>
           <NameInput
             type="input"

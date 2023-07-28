@@ -14,8 +14,6 @@ export const ResumePage = styled.div`
 export const ChronoList = styled.div`
   display: flex;
   flex-direction: row;
-  //   justify-content: center;
-  //   align-items: center;
   margin-top: 15px;
   padding: 20px;
 
@@ -30,7 +28,6 @@ export const ResumeHeadings = styled.h1`
   font-size: 26px;
   line-height: 31.2px;
   color: white;
-  //   background-color: rgba(0, 0, 0, 0.8);
   margin-bottom: 18px;
 `;
 

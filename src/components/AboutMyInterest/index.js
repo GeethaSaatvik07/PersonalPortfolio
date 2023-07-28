@@ -8,7 +8,7 @@ import { InterestsList, InterestTab, InterestName } from "./styledComponents";
 
 import "./index.css";
 
-const MyInterest = () => (
+const AboutMyInterest = () => (
   <InterestsList>
     <InterestTab>
       <PiBooks className="interest-icon" />
@@ -45,4 +45,4 @@ const MyInterest = () => (
   </InterestsList>
 );
 
-export default MyInterest;
+export default AboutMyInterest;

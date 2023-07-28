@@ -22,7 +22,16 @@ export const HeaderName = styled.h1`
   line-height: 36px;
   color: white;
   margin-left: 100px;
-  padding-left: 12px;
+
+  @media (max-width: 576px) {
+    margin-left: 15px;
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    font-size: 26px;
+    line-height: 26px;
+    margin-left: 75px;
+  }
 `;
 
 // export const HomeNav = styled.div`

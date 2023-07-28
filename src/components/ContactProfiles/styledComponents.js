@@ -17,6 +17,16 @@ export const CardDetailsAlign = styled.div`
   width: 44.85%;
   margin-right: 24px;
   margin-bottom: 24px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 41.03%;
+    margin-right: 12px;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const CardLogoContainer = styled.div`

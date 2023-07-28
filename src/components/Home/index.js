@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { BsLinkedin, BsInstagram, BsTwitter } from "react-icons/bs";
 import {
-    HomePage,
+  HomePage,
   HomeContainer,
   HomeName,
   HomeLine,
@@ -29,7 +29,7 @@ class Home extends Component {
             <Navbar key={each.id} pageDetails={each} active={1} />
           ))}
         </HomeNav> */}
-          <Navbar active={"Home"} />
+          <Navbar active={"Home"} className="show-navbar" />
           <HomeSocialNetworks>
             <a
               href="https://www.linkedin.com/in/geethasaatvikadepu/"

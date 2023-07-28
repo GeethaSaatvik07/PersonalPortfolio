@@ -9,6 +9,16 @@ export const ProjectImageContainer = styled.div`
   height: 45vh;
   margin-right: 24px;
   margin-bottom: 30px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 45%;
+    height: 40vh;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const ProjectImage = styled.img`
@@ -90,18 +100,36 @@ export const PopupContainer = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
   margin-bottom: 42px;
   padding: 15px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 58%;
+    width: 80%;
+    padding: 15px;
+  }
 `;
 
 export const PopupImage = styled.img`
   width: 45%;
   border-radius: 15px;
+
+  @media (max-width: 768px){
+      width: 100%
+      order: 1;
+  }
 `;
 
 export const PopupDetails = styled.div`
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 10px;
+
+  @media (max-width: 768px) {
+    order: 2;
+  }
 `;
 
 export const PopupSpanAnswer = styled.div`

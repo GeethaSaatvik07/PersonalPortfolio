@@ -1,6 +1,6 @@
-import SkillPercentage from "../SkillPercentage";
+import SkillPercentage from "../AboutSkillPercentage";
 
-const SkillsSet = () => (
+const AboutSkillsSet = () => (
   <>
     <SkillPercentage skillName={"HTML"} percentage={100} />
     <SkillPercentage skillName={"CSS"} percentage={90} />
@@ -15,4 +15,4 @@ const SkillsSet = () => (
   </>
 );
 
-export default SkillsSet;
+export default AboutSkillsSet;

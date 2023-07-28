@@ -31,7 +31,6 @@
   z-index: 0;
   border-radius: 5px;
   color: yellow;
-  /* min-height: 100vh; */
   height: 100%;
   width: 100vw;
   overflow-y: scroll;
@@ -43,6 +42,20 @@
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
     display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .pages-background {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .pages-background {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 

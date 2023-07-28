@@ -36,6 +36,11 @@ export const DetailsAndImage = styled.div`
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const Details = styled.div`
@@ -44,11 +49,24 @@ export const Details = styled.div`
   text-align: left;
   width: 65%;
   margin-right: 39px;
+
+  @media (max-width: 768px) {
+    order: 1;
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const MyImage = styled.img`
   width: 30%;
   border-radius: 5px;
+
+  @media (max-width: 768px) {
+    width: 70%;
+    margin-bottom: 24px;
+    order: 0;
+    text-align: center;
+  }
 `;
 
 export const RoleName = styled.h2`
@@ -76,6 +94,12 @@ export const ExtraDetails = styled.div`
   align-items: center;
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.8);
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const ExtraDetailsList = styled.li`
@@ -88,6 +112,10 @@ export const ExtraDetailsList = styled.li`
   margin-bottom: 20px;
   color: white;
   width: 50%;
+
+  @media (max-width: 768px){
+      width: 100%;
+  }
 `;
 
 export const ExtraDetailsListSpan = styled.span`

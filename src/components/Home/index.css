@@ -10,7 +10,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   margin-right: 8px;
-  transition: background-color 0.8s;
+  transition: background-color 0.5s;
 }
 
 .home-social:hover {
@@ -21,4 +21,14 @@
   font-size: 16px;
   line-height: 16px;
   color: white;
+}
+
+.show-navbar {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .show-navbar {
+    display: none;
+  }
 }

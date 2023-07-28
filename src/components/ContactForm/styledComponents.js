@@ -30,6 +30,17 @@ export const NameInput = styled.input`
   padding-right: 15px;
   padding-left: 15px;
   color: white;
+  margin-bottom: 16px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 43.07%;
+    margin-right: 12px;
+  }
+
+  @media (max-width: 576px) and (max-width: 768px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const EmailInput = styled.input`
@@ -45,6 +56,16 @@ export const EmailInput = styled.input`
   padding-right: 15px;
   padding-left: 15px;
   color: white;
+  margin-bottom: 16px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 43.07%;
+  }
+
+  @media (max-width: 576px) and (max-width: 768px) {
+    width: 100%;
+    margin-right: 0px;
+  }
 `;
 
 export const Message = styled.textarea`
@@ -55,14 +76,16 @@ export const Message = styled.textarea`
   width: 100%;
   font-size: 16px;
   line-height: 24px;
+  //   padding: 10px 15px;
   padding-top: 12px;
   padding-bottom: 12px;
   //   padding-right: 15px;
   //   padding-left: 15px;
-  margin-top: 16px;
+  //   margin-top: 16px;
   margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.08);
   color: white;
+  resize: none;
 `;
 
 export const SendButton = styled.button`
