@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { BsLinkedin, BsInstagram, BsTwitter } from "react-icons/bs";
 import {
+  //   HomePageWithMenu,
   HomePage,
   HomeContainer,
   HomeName,
@@ -11,13 +12,19 @@ import {
 } from "./styledComponents";
 
 import Navbar from "../Navbar";
+import HeaderMenuButton from "../HeaderMenuButton";
 
 import "./index.css";
 
 class Home extends Component {
   render() {
     return (
+      //   <>
+      // {/* //   <HomePageWithMenu>
+      //     <HeaderMenuButton className="menu-home" /> */}
+      // {/* <HeaderMenuButton className="menu-home" /> */}
       <HomePage>
+        <HeaderMenuButton className="menu-home" />
         <HomeContainer>
           <HomeName>Geetha Saatvik Adepu</HomeName>
           <HomeLine>
@@ -58,6 +65,8 @@ class Home extends Component {
           </HomeSocialNetworks>
         </HomeContainer>
       </HomePage>
+      // {/* </HomePageWithMenu> */}
+      //   </>
     );
   }
 }

@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const HomePageWithMenu = styled.div`
+  background-image: url("https://res.cloudinary.com/dbj5bk2gm/image/upload/v1690228817/wavy-folds_angvqw.webp");
+  background-size: cover;
+  height: 100vh;
+`;
+
 export const HomePage = styled.div`
   background-image: url("https://res.cloudinary.com/dbj5bk2gm/image/upload/v1690228817/wavy-folds_angvqw.webp");
   background-size: cover;
@@ -10,6 +16,7 @@ export const HomePage = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

@@ -1,0 +1,18 @@
+.menu-button {
+  color: white;
+  transition: color 0.5s;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 20px;
+
+  &:hover {
+    color: #18d26e;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}

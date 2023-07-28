@@ -1,7 +1,18 @@
 import { Link, withRouter } from "react-router-dom";
-import { HeaderNav, HeaderName } from "./styledComponents";
+// import { FiMenu } from "react-icons/fi";
+// import { AiOutlineClose } from "react-icons/ai";
+// import Popup from "reactjs-popup";
+
+import {
+  HeaderNav,
+  HeaderName,
+  //   MenuButton,
+  //   MenuPopup,
+  //   MenuPopupList,
+} from "./styledComponents";
 
 import Navbar from "../Navbar";
+import HeaderMenuButton from "../HeaderMenuButton";
 
 // const WebsitePages = [
 //   {
@@ -41,6 +52,7 @@ const Header = (props) => {
         <HeaderName>Geetha Saatvik Adepu</HeaderName>
       </Link>
       <Navbar active={activeTab} />
+      <HeaderMenuButton active={activeTab} />
     </HeaderNav>
   );
 };
