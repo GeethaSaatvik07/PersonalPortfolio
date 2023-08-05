@@ -75,6 +75,44 @@ export const HeaderName = styled.h1`
   }
 `;
 
+export const HeaderLogo = styled.img`
+  //   width: 240px;
+  width: 80px;
+  line-height: 36px;
+  margin-left: 100px;
+
+  @media (max-width: 576px) {
+    margin-left: 15px;
+    // display: none;
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    font-size: 26px;
+    line-height: 26px;
+    margin-left: 75px;
+  }
+`;
+
+// export const HeaderSmallLogo = styled.img`
+//   width: 80px;
+//   //   height: 95%;
+//   line-height: 36px;
+//   margin-left: 100px;
+//   display: none;
+
+//   @media (max-width: 576px) {
+//     margin-left: 15px;
+//     display: block;
+//   }
+
+//   @media (min-width: 576px) and (max-width: 768px) {
+//     font-size: 26px;
+//     line-height: 26px;
+//     margin-left: 75px;
+//     display: none;
+//   }
+// `;
+
 // export const HomeNav = styled.div`
 //   display: flex;
 //   justify-content: flex-start;

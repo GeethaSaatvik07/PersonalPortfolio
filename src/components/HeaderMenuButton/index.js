@@ -9,6 +9,7 @@ import {
   ActiveHomeNavPage,
   MenuButton,
   MenuPopup,
+  MenuPagesList
 } from "./styledComponents";
 
 import "./index.css";
@@ -68,6 +69,7 @@ class HeaderMenuButton extends Component {
               <HeaderMenuButton active={activeTab} />
             </MenuPopupList> */}
             <MenuButton>
+            <MenuPagesList>
               <Link to="/" className="page-link" onClick={this.onClickHome}>
                 {active === "Home" ? (
                   <ActiveHomeNavPage>Home</ActiveHomeNavPage>
@@ -119,6 +121,7 @@ class HeaderMenuButton extends Component {
                   <HomeNavPage>Contact</HomeNavPage>
                 )}
               </Link>
+            </MenuPagesList>
             </MenuButton>
           </MenuPopup>
         )}

@@ -16,8 +16,8 @@ export const HomeNav = styled.div`
 export const MenuPopup = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  //   justify-content: center;
+  //   align-items: center;
   height: 100vh;
   width: 100vw;
   border-radius: 5px;
@@ -25,6 +25,15 @@ export const MenuPopup = styled.div`
   padding: 10px;
   border: 1px solid #444444;
   margin: 10px;
+`;
+
+export const MenuPagesList = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 75px;
+//   background-color: rgba(0, 0, 0, 0.8);
+//   backdrop-filter: blur(8px);
+//   -webkit-filter: blur(8px);
 `;
 
 export const MenuButton = styled.div`
@@ -42,6 +51,7 @@ export const MenuButton = styled.div`
 export const HomeNavPage = styled.li`
   list-style-type: none;
   margin-right: 30px;
+  margin-bottom: 10px;
   padding-bottom: 5px;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -60,6 +70,7 @@ export const HomeNavPage = styled.li`
 export const ActiveHomeNavPage = styled.li`
   list-style-type: none;
   margin-right: 30px;
+  margin-bottom: 10px;
   color: white;
   padding-bottom: 5px;
   font-family: "Poppins", sans-serif;

@@ -5,7 +5,9 @@ import { Link, withRouter } from "react-router-dom";
 
 import {
   HeaderNav,
-  HeaderName,
+  //   HeaderName,
+  HeaderLogo,
+  //   HeaderSmallLogo,
   //   MenuButton,
   //   MenuPopup,
   //   MenuPopupList,
@@ -49,7 +51,15 @@ const Header = (props) => {
   return (
     <HeaderNav>
       <Link to="/" className="page-link" onClick={onClickHome}>
-        <HeaderName>Geetha Saatvik Adepu</HeaderName>
+        {/* <HeaderName>Geetha Saatvik Adepu</HeaderName> */}
+        <HeaderLogo
+          src="https://res.cloudinary.com/dbj5bk2gm/image/upload/v1691180175/Geetha-Saatvik-AdepU_g7bvzr.webp"
+          alt="logo"
+        />
+        {/* <HeaderSmallLogo
+          src="https://res.cloudinary.com/dbj5bk2gm/image/upload/v1691180175/Geetha-Saatvik-AdepU_g7bvzr.webp"
+          alt="logo"
+        /> */}
       </Link>
       <Navbar active={activeTab} />
       <HeaderMenuButton active={activeTab} />
