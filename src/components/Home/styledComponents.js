@@ -7,7 +7,7 @@ export const HomePageWithMenu = styled.div`
 `;
 
 export const HomePage = styled.div`
-  background-image: url("https://res.cloudinary.com/dbj5bk2gm/image/upload/v1690228817/wavy-folds_angvqw.webp");
+  //   background-image: url("https://res.cloudinary.com/dbj5bk2gm/image/upload/v1690228817/wavy-folds_angvqw.webp");
   background-size: cover;
   height: 100vh;
   display: flex;

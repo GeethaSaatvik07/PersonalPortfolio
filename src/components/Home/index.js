@@ -21,7 +21,7 @@ class Home extends Component {
     return (
       <>
         <HomePageWithMenu>
-          <HeaderMenuButton className="menu-home" />
+          <HeaderMenuButton className="menu-home" active={"Home"} />
           {/* <HeaderMenuButton className="menu-home" /> */}
           <HomePage>
             {/* <HeaderMenuButton className="menu-home" /> */}

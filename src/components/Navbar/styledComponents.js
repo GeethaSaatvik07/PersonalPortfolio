@@ -22,7 +22,7 @@ export const HomeNavPage = styled.li`
   font-size: 16px;
   line-height: 24px;
   opacity: 60%;
-  transition: opacity 1s, border-bottom 0.5s;
+  transition: opacity 1s, border-bottom 0.5s ease;
 
   &:hover {
     opacity: 100%;

@@ -7,7 +7,7 @@ export const HomeNav = styled.div`
   margin-left: 0px;
   margin-right: 100px;
   padding-right: 12px;
-
+  background-color: rgba(0, 0, 0, 0);
   @media (max-width: 768px) {
     display: none;
   }
@@ -25,15 +25,17 @@ export const MenuPopup = styled.div`
   padding: 10px;
   border: 1px solid #444444;
   margin: 10px;
+  //   z-index: 0;
 `;
 
 export const MenuPagesList = styled.div`
   display: flex;
   flex-direction: column;
   width: 75px;
-//   background-color: rgba(0, 0, 0, 0.8);
-//   backdrop-filter: blur(8px);
-//   -webkit-filter: blur(8px);
+  //   background-color: rgba(0, 0, 0, 0.8);
+  //   backdrop-filter: blur(8px);
+  //   -webkit-filter: blur(8px);
+  //   z-index: 1;
 `;
 
 export const MenuButton = styled.div`
