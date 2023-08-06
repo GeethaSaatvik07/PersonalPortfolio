@@ -76,12 +76,8 @@ export const Message = styled.textarea`
   width: 100%;
   font-size: 16px;
   line-height: 24px;
-  //   padding: 10px 15px;
   padding-top: 12px;
   padding-bottom: 12px;
-  //   padding-right: 15px;
-  //   padding-left: 15px;
-  //   margin-top: 16px;
   margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.08);
   color: white;
@@ -97,14 +93,9 @@ export const SendButton = styled.button`
   border-radius: 4px;
   height: 44px;
   width: 200px;
-  //   font-weight: bold;
-  //   transition: background-color 1s, color 1s, border 1s;
   transition: background-color 0.5s;
 
   &:hover {
-    // background-color: rgba(255, 255, 255, 0.08);
     background-color: #15bb62;
-    // color: #18d26e;
-    // border: 2px solid white;
   }
 `;

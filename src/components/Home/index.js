@@ -7,7 +7,6 @@ import {
   HomeName,
   HomeLine,
   RoleSpan,
-  //   HomeNav,
   HomeSocialNetworks,
 } from "./styledComponents";
 
@@ -22,20 +21,13 @@ class Home extends Component {
       <>
         <HomePageWithMenu>
           <HeaderMenuButton className="menu-home" active={"Home"} />
-          {/* <HeaderMenuButton className="menu-home" /> */}
           <HomePage>
-            {/* <HeaderMenuButton className="menu-home" /> */}
             <HomeContainer>
               <HomeName>Geetha Saatvik Adepu</HomeName>
               <HomeLine>
                 I'm a passionate <RoleSpan>full-stack web developer</RoleSpan>{" "}
                 from India
               </HomeLine>
-              {/* <HomeNav>
-          {WebsitePages.map((each) => (
-            <Navbar key={each.id} pageDetails={each} active={1} />
-          ))}
-        </HomeNav> */}
               <Navbar active={"Home"} className="show-navbar" />
               <HomeSocialNetworks>
                 <a

@@ -2,7 +2,6 @@ import { Component } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import {
   AboutPage,
-  //   AboutMe,
   DetailsAndImage,
   Details,
   MyImage,
@@ -15,7 +14,6 @@ import {
   AboutSkills,
   SkillList,
   AboutInterests,
-  //   InterestsList,
 } from "./styledComponents";
 
 import Header from "../Header";

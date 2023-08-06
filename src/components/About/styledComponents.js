@@ -11,27 +11,6 @@ export const AboutPage = styled.div`
   flex-direction: column;
 `;
 
-// export const AboutMe = styled.div`
-// position: relative;
-// background-color: rgba(0,0,0,0.5);
-// border-radius: 5px;
-// // z-index: 0
-// color: yellow;
-// height: 100%;
-// overflow-y: auto;
-// padding: 30px;
-// margin: 100px;
-// // padding-top: 100px;
-// // margin-top: 100px;
-// // margin-right: 100px;
-// // margin-left: 100px;
-
-// &::-webkit-scrollbar{
-//     display: none;
-// }
-// scrollbar-width: none;
-// `
-
 export const DetailsAndImage = styled.div`
   display: flex;
   flex-direction: row;
@@ -113,8 +92,8 @@ export const ExtraDetailsList = styled.li`
   color: white;
   width: 50%;
 
-  @media (max-width: 768px){
-      width: 100%;
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
 

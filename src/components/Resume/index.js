@@ -108,7 +108,6 @@ const Resume = () => (
           <SummaryAndExperience>
             <ResumeHeadings>Summary</ResumeHeadings>
             <Chrono
-              // items={timeLineList}
               mode="VERTICAL"
               hideControls={{ hideControls: true }}
               clickable={false}
@@ -128,7 +127,6 @@ const Resume = () => (
             </Chrono>
             <ResumeHeadings>Professional Experience</ResumeHeadings>
             <Chrono
-              // items={timeLineList}
               icons={MdWork}
               mode="VERTICAL"
               hideControls={{ hideControls: true }}
@@ -146,15 +144,11 @@ const Resume = () => (
                   jobDetails={eachItem}
                 />
               ))}
-              {/* <div className="chrono-icons">
-    <img src="image1.svg" alt="image1" />
-  </div> */}
             </Chrono>
           </SummaryAndExperience>
           <EducationChrono>
             <ResumeHeadings>Education</ResumeHeadings>
             <Chrono
-              // items={timeLineList}
               mode="VERTICAL"
               hideControls={{ hideControls: true }}
               clickable={false}

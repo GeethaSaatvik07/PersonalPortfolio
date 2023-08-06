@@ -16,8 +16,6 @@ export const HomeNav = styled.div`
 export const MenuPopup = styled.div`
   display: flex;
   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
   height: 100vh;
   width: 100vw;
   border-radius: 5px;
@@ -25,24 +23,17 @@ export const MenuPopup = styled.div`
   padding: 10px;
   border: 1px solid #444444;
   margin: 10px;
-  //   z-index: 0;
 `;
 
 export const MenuPagesList = styled.div`
   display: flex;
   flex-direction: column;
   width: 75px;
-  //   background-color: rgba(0, 0, 0, 0.8);
-  //   backdrop-filter: blur(8px);
-  //   -webkit-filter: blur(8px);
-  //   z-index: 1;
 `;
 
 export const MenuButton = styled.div`
   display: flex;
   flex-direction: column;
-  //   justify-content: flex-start;
-  //   align-items: center;
   padding: 15px;
 
   @media (max-width: 768px) {

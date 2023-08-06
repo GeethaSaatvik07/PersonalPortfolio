@@ -9,7 +9,7 @@ import {
   ActiveHomeNavPage,
   MenuButton,
   MenuPopup,
-  MenuPagesList
+  MenuPagesList,
 } from "./styledComponents";
 
 import "./index.css";
@@ -65,63 +65,60 @@ class HeaderMenuButton extends Component {
             >
               <AiOutlineClose />
             </button>
-            {/* <MenuPopupList>
-              <HeaderMenuButton active={activeTab} />
-            </MenuPopupList> */}
             <MenuButton>
-            <MenuPagesList>
-              <Link to="/" className="page-link" onClick={this.onClickHome}>
-                {active === "Home" ? (
-                  <ActiveHomeNavPage>Home</ActiveHomeNavPage>
-                ) : (
-                  <HomeNavPage>Home</HomeNavPage>
-                )}
-              </Link>
-              <Link
-                to="/about"
-                className="page-link"
-                onClick={this.onClickAbout}
-              >
-                {active === "About" ? (
-                  <ActiveHomeNavPage>About</ActiveHomeNavPage>
-                ) : (
-                  <HomeNavPage>About</HomeNavPage>
-                )}
-              </Link>
-              <Link
-                to="/resume"
-                className="page-link"
-                onClick={this.onClickResume}
-              >
-                {active === "Resume" ? (
-                  <ActiveHomeNavPage>Resume</ActiveHomeNavPage>
-                ) : (
-                  <HomeNavPage>Resume</HomeNavPage>
-                )}
-              </Link>
-              <Link
-                to="/projects"
-                className="page-link"
-                onClick={this.onClickProjects}
-              >
-                {active === "Projects" ? (
-                  <ActiveHomeNavPage>Projects</ActiveHomeNavPage>
-                ) : (
-                  <HomeNavPage>Projects</HomeNavPage>
-                )}
-              </Link>
-              <Link
-                to="/contact"
-                className="page-link"
-                onClick={this.onClickContact}
-              >
-                {active === "Contact" ? (
-                  <ActiveHomeNavPage>Contact</ActiveHomeNavPage>
-                ) : (
-                  <HomeNavPage>Contact</HomeNavPage>
-                )}
-              </Link>
-            </MenuPagesList>
+              <MenuPagesList>
+                <Link to="/" className="page-link" onClick={this.onClickHome}>
+                  {active === "Home" ? (
+                    <ActiveHomeNavPage>Home</ActiveHomeNavPage>
+                  ) : (
+                    <HomeNavPage>Home</HomeNavPage>
+                  )}
+                </Link>
+                <Link
+                  to="/about"
+                  className="page-link"
+                  onClick={this.onClickAbout}
+                >
+                  {active === "About" ? (
+                    <ActiveHomeNavPage>About</ActiveHomeNavPage>
+                  ) : (
+                    <HomeNavPage>About</HomeNavPage>
+                  )}
+                </Link>
+                <Link
+                  to="/resume"
+                  className="page-link"
+                  onClick={this.onClickResume}
+                >
+                  {active === "Resume" ? (
+                    <ActiveHomeNavPage>Resume</ActiveHomeNavPage>
+                  ) : (
+                    <HomeNavPage>Resume</HomeNavPage>
+                  )}
+                </Link>
+                <Link
+                  to="/projects"
+                  className="page-link"
+                  onClick={this.onClickProjects}
+                >
+                  {active === "Projects" ? (
+                    <ActiveHomeNavPage>Projects</ActiveHomeNavPage>
+                  ) : (
+                    <HomeNavPage>Projects</HomeNavPage>
+                  )}
+                </Link>
+                <Link
+                  to="/contact"
+                  className="page-link"
+                  onClick={this.onClickContact}
+                >
+                  {active === "Contact" ? (
+                    <ActiveHomeNavPage>Contact</ActiveHomeNavPage>
+                  ) : (
+                    <HomeNavPage>Contact</HomeNavPage>
+                  )}
+                </Link>
+              </MenuPagesList>
             </MenuButton>
           </MenuPopup>
         )}

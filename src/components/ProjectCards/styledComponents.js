@@ -13,11 +13,6 @@ export const ProjectImageContainer = styled.div`
   border-top-right-radius: 15px;
   border: 1px solid white;
   padding: 7px;
-    transition: transform 0.3s ease;
-
-    &:hover {
-      padding-bottom: 0px;
-    }
 
   @media (min-width: 576px) and (max-width: 768px) {
     width: 45%;
@@ -50,21 +45,17 @@ export const NameAndButton = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  //   width: 100%;
   width: 94.4%;
   height: 15%;
   padding: 10px;
   margin-right: 3px;
   z-index: 1;
   transition: transform 0.3s ease;
-  //   background-color: black;
   background-color: rgba(24, 210, 110, 0.6);
 
   ${ProjectImageContainer}:hover & {
     background-color: rgba(24, 210, 110);
     transform: scale(1.05);
-    // height: 58%;
-    // padding-bottom: 0px;
   }
 `;
 
@@ -80,7 +71,6 @@ export const ProjectButton = styled.button`
   border: none;
   outline: none;
   background: none;
-  //   color: white;
   color: black;
   font-size: 28px;
   line-height: 28px;
@@ -88,7 +78,6 @@ export const ProjectButton = styled.button`
   margin-right: 10px;
 
   &:hover {
-    // color: #18d26e;
     color: white;
   }
 `;
@@ -100,7 +89,6 @@ export const FullPopup = styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
-  //   padding: 30px;
   border-radius: 5px;
   background-image: url("https://res.cloudinary.com/dbj5bk2gm/image/upload/v1690228817/wavy-folds_angvqw.webp");
   background-repeat: no-repeat;
@@ -162,7 +150,6 @@ export const PopupHeading = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: white;
-  //   margin-bottom: 12px;
 `;
 
 export const PopupUrl = styled.a`
@@ -172,14 +159,12 @@ export const PopupUrl = styled.a`
   color: #18d26e;
   margin-top: 10px;
   text-decoration: none;
-  //   margin-bottom: 12px;
 `;
 
 export const PopupSpan = styled.p`
   font-weight: bold;
   color: white;
   margin-right: 10px;
-  //   margin-bottom: 12px;
 `;
 
 export const PopupLoginCredentials = styled.p`

@@ -7,7 +7,6 @@ export const HomePageWithMenu = styled.div`
 `;
 
 export const HomePage = styled.div`
-  //   background-image: url("https://res.cloudinary.com/dbj5bk2gm/image/upload/v1690228817/wavy-folds_angvqw.webp");
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -71,15 +70,6 @@ export const RoleSpan = styled.span`
   color: rgba(255, 255, 255, 1);
   font-weight: 500;
 `;
-
-// export const HomeNav = styled.div`
-//   display: flex;
-//   justify-content: flex-start;
-//   align-items: center;
-//   width: 80%;
-//   margin-left: 0px;
-//   margin-bottom: 40px;
-// `;
 
 export const HomeSocialNetworks = styled.div`
   display: flex;

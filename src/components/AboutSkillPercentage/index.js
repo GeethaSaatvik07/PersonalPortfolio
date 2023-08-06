@@ -16,9 +16,7 @@ const SkillPercentage = (props) => {
         <SkillPercent>{percentage}%</SkillPercent>
       </SkillNameAndPercentage>
       <PercentageContainer>
-        <PercentageInner percentage={percentage}>
-          {/* {percentage}% */}
-        </PercentageInner>
+        <PercentageInner percentage={percentage}></PercentageInner>
       </PercentageContainer>
     </SkillSet>
   );

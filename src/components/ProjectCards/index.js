@@ -33,7 +33,6 @@ const ProjectCards = (props) => {
     <ProjectImageContainer>
       <ProjectImage src={imageUrl} alt="project-image" />
       <NameAndButton>
-        {/* <ProjectTitle>{projectTitle}</ProjectTitle> */}
         <Popup
           modal
           trigger={
@@ -83,13 +82,3 @@ const ProjectCards = (props) => {
 };
 
 export default ProjectCards;
-
-// {
-//     id: "a19d93d6-bdac-479e-b554-974ef9e6e66c",
-//     categoryId: "PROJECT",
-//     projectTitle: "Tourism Website",
-//     description:
-//       "A tourism website enables the user to browse through the images of popular destinations.",
-//     imageUrl: "https://assets.ccbp.in/frontend/react-js/projects-s4-img.png",
-//     projectUrl: "https://tourismapp.ccbp.tech/",
-//   },

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const InterestsList = styled.div`
   display: flex;
   flex-direction: row;
-  //   justify-content: center;
   align-items: center;
   align-content: space-around;
   flex-wrap: wrap;
@@ -16,7 +15,6 @@ export const InterestTab = styled.div`
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.08);
-  //   border: 1px solid white;
   border-radius: 1px;
   margin-right: 24px;
   margin-bottom: 24px;

@@ -1,7 +1,6 @@
 .chrono-card {
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.4); */
   padding: 10px;
 }
 
@@ -11,7 +10,6 @@
   line-height: 18px;
   margin-bottom: 11px;
   color: #18d26e;
-  /* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 .chrono-date {
@@ -29,7 +27,6 @@
   margin-bottom: 18px;
   font-style: italic;
   color: white;
-  /* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 .chrono-sublines {
@@ -37,7 +34,6 @@
   font-size: 16px;
   line-height: 24px;
   color: white;
-  /* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 .chrono-list {

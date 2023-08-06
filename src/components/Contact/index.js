@@ -1,14 +1,4 @@
-// import { BiMap, BiShareAlt, BiEnvelope, BiPhoneCall } from "react-icons/bi";
-
-import {
-  ContactPage,
-  //   ContactMeProfiles,
-  //   CardLogoContainer,
-  //   CardDetailsAlign,
-  //   CardHeadingPara,
-  //   CardHeadings,
-  //   CardLines,
-} from "./styledComponents";
+import { ContactPage } from "./styledComponents";
 
 import Header from "../Header";
 import ContactProfiles from "../ContactProfiles";
