@@ -9,6 +9,15 @@ export const ProjectImageContainer = styled.div`
   height: 45vh;
   margin-right: 24px;
   margin-bottom: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border: 1px solid white;
+  padding: 7px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      padding-bottom: 0px;
+    }
 
   @media (min-width: 576px) and (max-width: 768px) {
     width: 45%;
@@ -24,9 +33,12 @@ export const ProjectImageContainer = styled.div`
 export const ProjectImage = styled.img`
   width: 100%;
   height: 85%;
+  background-color: rgba(0, 0, 0, 0.8);
   overflow-x: hidden;
   overflow-y: hidden;
   transition: transform 0.3s ease;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 
   ${ProjectImageContainer}:hover & {
     transform: scale(1.05);
@@ -38,15 +50,21 @@ export const NameAndButton = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  //   width: 100%;
+  width: 94.4%;
   height: 15%;
   padding: 10px;
+  margin-right: 3px;
   z-index: 1;
+  transition: transform 0.3s ease;
   //   background-color: black;
   background-color: rgba(24, 210, 110, 0.6);
 
   ${ProjectImageContainer}:hover & {
     background-color: rgba(24, 210, 110);
+    transform: scale(1.05);
+    // height: 58%;
+    // padding-bottom: 0px;
   }
 `;
 
