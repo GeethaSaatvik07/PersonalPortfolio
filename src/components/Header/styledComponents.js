@@ -57,21 +57,27 @@ export const MenuButton = styled.div`
   }
 `;
 
+export const HeaderNameAndLogo = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
 export const HeaderName = styled.h1`
   font-family: "Poppins", sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: white;
-  margin-left: 100px;
+  //   margin-left: 10px;
 
   @media (max-width: 576px) {
-    margin-left: 15px;
+    // margin-left: 15px;
+    display: none;
   }
 
   @media (min-width: 576px) and (max-width: 768px) {
     font-size: 26px;
     line-height: 26px;
-    margin-left: 75px;
+    // margin-left: 10px;
   }
 `;
 
