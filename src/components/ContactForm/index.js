@@ -21,7 +21,7 @@ class ContactForm extends Component {
         <input
           type="hidden"
           name="_next"
-          value="https://geethasaatvik.vercel.app/"
+          value="https://geethasaatvik.vercel.app/contact"
         />
         <NameEmail>
           <NameInput
