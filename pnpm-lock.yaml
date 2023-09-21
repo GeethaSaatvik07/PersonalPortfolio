@@ -6,6 +6,7 @@ specifiers:
   '@testing-library/user-event': ^13.5.0
   axios: ^1.4.0
   react: ^18.2.0
+  react-animated-cursor: ^2.8.1
   react-chrono: ^2.2.2
   react-dom: ^18.2.0
   react-icons: ^4.10.1
@@ -21,6 +22,7 @@ dependencies:
   '@testing-library/user-event': 13.5.0
   axios: 1.4.0
   react: 18.2.0
+  react-animated-cursor: 2.8.1_react-dom@18.2.0+react@18.2.0
   react-chrono: 2.2.2_react-dom@18.2.0+react@18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.10.1_react@18.2.0
@@ -8532,6 +8534,16 @@ packages:
       http-errors: 2.0.0
       iconv-lite: 0.4.24
       unpipe: 1.0.0
+    dev: false
+
+  /react-animated-cursor/2.8.1_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-cCYgR1m5AdK69eJROxTGMZrRLrvOY7KhZSHLFUlG3IFW88+JTXMfv91y/uyFugF10w2oPrkWUXOFaTj8rXYMWA==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-app-polyfill/3.0.0:
