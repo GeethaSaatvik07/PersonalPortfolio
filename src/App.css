@@ -95,3 +95,16 @@
   background-color: rgba(0, 0, 0, 0.8);
   font-weight: bold;
 }
+
+.resume-link-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.resume-link {
+  margin-left: 20px;
+  font-size: 36px;
+  color: white;
+  margin-bottom: 15px;
+}

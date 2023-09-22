@@ -1,5 +1,6 @@
 import { Chrono } from "react-chrono";
 import { MdWork } from "react-icons/md";
+import { FiExternalLink } from "react-icons/fi";
 
 import {
   ResumePage,
@@ -103,7 +104,17 @@ const Resume = () => (
           <h2 className="page-name">RESUME</h2>
           <hr className="page-hr-line" />
         </div>
-        <p className="page-intro">CHECK MY RESUME</p>
+        <div className="resume-link-container">
+          <p className="page-intro">CHECK MY RESUME</p>
+          <a
+            href="https://drive.google.com/file/d/1j7JJ0ztTt-GV1L6PIujP2jiZmc4AHpG7/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="resume-link"
+          >
+            <FiExternalLink />
+          </a>
+        </div>
         <ChronoList>
           <SummaryAndExperience>
             <ResumeHeadings>Summary</ResumeHeadings>

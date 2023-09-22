@@ -215,7 +215,7 @@ class About extends Component {
             <p className="page-intro">LEARN MORE ABOUT ME</p>
             <DetailsAndImage>
               <Details>
-                <RoleName>Full Stack Web Developer</RoleName>
+                <RoleName>Frontend Developer</RoleName>
                 <RoleWork>{roleLine}</RoleWork>
                 <ExtraDetails>
                   <ExtraDetailsList>
