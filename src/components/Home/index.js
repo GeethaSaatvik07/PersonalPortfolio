@@ -25,8 +25,7 @@ class Home extends Component {
             <HomeContainer>
               <HomeName>Geetha Saatvik Adepu</HomeName>
               <HomeLine>
-                I'm a passionate <RoleSpan>Frontend developer</RoleSpan>{" "}
-                from India
+                I'm a passionate <RoleSpan>Web developer</RoleSpan> from India
               </HomeLine>
               <Navbar active={"Home"} className="show-navbar" />
               <HomeSocialNetworks>

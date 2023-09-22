@@ -6,7 +6,7 @@ export const ProjectImageContainer = styled.div`
   overflow-x: hidden;
   overflow-y: hidden;
   width: 28%;
-  height: 45vh;
+  height: 50vh;
   margin-right: 24px;
   margin-bottom: 30px;
   border-top-left-radius: 15px;
@@ -22,6 +22,11 @@ export const ProjectImageContainer = styled.div`
   @media (max-width: 576px) {
     width: 100%;
     margin-right: 0px;
+  }
+
+  // New Project Cards Design
+  &:hover {
+    background-color: rgba(24, 210, 110);
   }
 `;
 
@@ -181,4 +186,63 @@ export const PopupDescription = styled.p`
   font-size: 18px;
   line-height: 18px;
   margin-top: 25px;
+`;
+
+// New Project Cards Design
+export const ProjectFullDetails = styled.div`
+  display: flex;
+  flex-direction: column;
+  //   justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px 15px 15px 15px;
+  color: white;
+`;
+
+export const ProjectCardTitle = styled.h1`
+  font-size: 18px;
+  line-height: 27px;
+`;
+
+export const ProjectCardDesc = styled.p`
+  font-size: 14px;
+  line-height: 21px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+`;
+
+export const ProjectCardViewAndCredentials = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+`;
+
+export const ProjectCardLinkLogo = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+
+  &:hover {
+    border-bottom: 2px solid black;
+    // text-decoration: underline;
+  }
+`;
+
+export const ProjectCardLink = styled.a`
+  font-size: 16px;
+  line-height: 24px;
+`;
+
+export const ProjectCardLogo = styled.a`
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 7px;
+`;
+
+export const UsernameAndPassword = styled.div`
+  font-size: 13px;
+  color: white;
+  text-align: right;
 `;
